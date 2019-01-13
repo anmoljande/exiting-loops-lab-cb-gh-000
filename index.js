@@ -21,3 +21,5 @@ function keepGoing(array,change,skip)
     
   }
 }
+
+function 
