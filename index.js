@@ -28,10 +28,11 @@ function findBy(array,findFn)
    
    if (findFn(item))
    {
-     
+     return item;
    }
  }
- 
  );
- 
+  return null;
+
 }
+ 
