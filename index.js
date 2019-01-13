@@ -26,9 +26,10 @@ function findBy(array,findFn)
 {
  array.forEach(item=>
  {
-   console.log(item);
   if (findFn(item))
    {
+        console.log(item);
+
      return item;
    }
  }
