@@ -24,16 +24,14 @@ function keepGoing(array,change,skip)
 
 function findBy(array,findFn)
 {
- array.forEach(item=>
- {
-  if (findFn(item))
-   {
-        console.log(item);
-
-     return item;
-   }
- }
- );
+for(var i=0;i<array.length;i++)
+{
+  if (findFn(array[i]))
+  {
+    return array[i];
+  }
+  
+}
   return null;
 
 }
