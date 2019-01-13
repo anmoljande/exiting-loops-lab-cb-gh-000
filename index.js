@@ -23,6 +23,14 @@ function keepGoing(array,change,skip)
 
 function findBy(array,findFn)
 {
-  
+ 
+ array.forEach(item=>
+ {
+   if(item===findfn)
+   {
+     
+   }
+   
+ });
   
 }
