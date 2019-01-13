@@ -23,14 +23,18 @@ function keepGoing(array,change,skip)
 
 function findBy(array,findFn)
 {
- 
+ var flag=0;
  array.forEach(item=>
  {
    if(item===findfn)
    {
-     
+     flag=1;
    }
    
  });
+ if(flag!=1)
+ {
+    return null;   
+ }
   
 }
