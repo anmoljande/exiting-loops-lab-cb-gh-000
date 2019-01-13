@@ -24,9 +24,10 @@ function keepGoing(array,change,skip)
 
 function findBy(array,findFn)
 {
- array.forEach(item=>{
-   
-   if (findFn(item))
+ array.forEach(item=>
+ {
+   console.log(item);
+  if (findFn(item))
    {
      return item;
    }
