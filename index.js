@@ -15,11 +15,10 @@ function keepGoing(array,change,skip)
 {
   for(var i=0;i<array.length;i++)
   {
-    if(array[i]==skip)
+    if(array[i]===skip)
     continue;
     array[i]=change;
     
   }
 }
 
-function 
