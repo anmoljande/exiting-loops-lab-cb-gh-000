@@ -17,6 +17,7 @@ function keepGoing(array,change,skip)
   {
     if(array[i]===skip)
     continue;
+    array[i]=change;
   }
   return array;
 }
