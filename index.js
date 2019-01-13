@@ -38,7 +38,7 @@ function findBy(array,findFn)
   }
  else
  {
-   return array[i];
+   return findfn;
  }
   
 }
