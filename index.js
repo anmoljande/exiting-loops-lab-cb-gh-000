@@ -25,17 +25,20 @@ function keepGoing(array,change,skip)
 function findBy(array,findFn)
 {
  var flag=0;
- array.forEach(item=>
+ for(var i=0;i<array.length;i++)
  {
-   if(item===findfn)
+   if(array[i]===findfn)
    {
      flag=1;
    }
-   
- });
- if(flag!=1)
+ }
+  if(flag===0)
+  {
+  return null;  
+  }
+ else
  {
-    return null;   
+   return array[i];
  }
   
 }
