@@ -16,9 +16,8 @@ function keepGoing(array,change,skip)
   for(var i=0;i<array.length;i++)
   {
     if(array[i]===skip)
-    continue;
-    array[i]=change;
-    
+    {continue;}
+    else{ array[i]=change;}
   }
 }
 
